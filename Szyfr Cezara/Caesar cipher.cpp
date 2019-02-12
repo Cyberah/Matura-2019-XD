@@ -1,4 +1,3 @@
-﻿#include "pch.h"
 #include <iostream>
 #include <string>
 #include <algorithm>
@@ -9,7 +8,7 @@ std::string encrypt(std::string & s, int N) {
 	for (it = s.begin(); it != s.end(); ++it) {
 		if (*it == ' ')
 			continue;
-		*it += static_cast<char>(N % 26); //jawne rzutowanie, może być niejawne.
+		*it += static_cast<char>(N % 26); //jawne rzutowanie, ale może być niejawne.
 		if (*it > 'Z')
 			*it -= 26;
 	}
