@@ -1,0 +1,12 @@
+Anagramy s¹ s³owami lub zdaniami, które tworzy siê przestawiaj¹c znaki innego wyrazu. Anagramy zawsze wiêc maj¹ tak¹ sam¹ d³ugoœæ i sk³adaj¹ siê z tych samych znaków.
+
+pseudokod:
+
+-> WprowadŸ ³añcuch A
+-> WprowadŸ ³añcuch B
+-> sprawdŸ, czy ³añcuchy s¹ tej samej d³ugoœci
+	-> Je¿eli nie, zwróæ fa³sz
+-> Posortuj oba ³añcuchy
+-> SprawdŸ, czy s¹ takie same
+	-> Jeœli tak, zwróæ prawdê
+	-> Jeœli nie, zwróæ fa³sz
